@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/Home.module.css'
@@ -40,9 +41,10 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
             <div className="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-                <img src="https://github.com/elateifsara.png"
-                     alt=""
-                     className="h-full w-full" />
+        
+                
+                <Image width={200} height={200 }  src="https://github.com/elateifsara.png" />
+
             </div>
     
             <h2 className="mt-4 font-bold text-xl text-center">Sara EL-ATEIF</h2>
@@ -55,9 +57,9 @@ export default function Home() {
     
         <div className="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
             <div className="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-                <img src="https://github.com/fatiima-Ezzahra.png"
-                     alt=""
-                     className="h-full w-full" />
+             
+                <Image width={200} height={200}  src="https://github.com/Fatiima-Ezzahra.png" />
+
             </div>
     
             <h2 className="mt-4 font-bold text-xl text-center">Fatima-Ezzahra OUHMID</h2>
@@ -70,9 +72,9 @@ export default function Home() {
     
         <div className="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
             <div className="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-                <img src="https://github.com/Ogbuchi-Ikechukwu.png"
-                     alt=""
-                     className="h-full w-full" />
+              
+                                <Image width={200} height={200 }   src="https://github.com/Ogbuchi-Ikechukwu.png" />
+                
             </div>
     
             <h2 className="mt-4 font-bold text-xl text-center">Ikechukwu Nigel Ogbuchi</h2>
@@ -85,9 +87,9 @@ export default function Home() {
     
         <div className="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
             <div className="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-                <img src="https://github.com/AbderrahimSoubaiElidrissi.png"
-                     alt=""
-                     className="h-full w-full" />
+             
+                                <Image width={200} height={200 }   src="https://github.com/AbderrahimSoubaiElidrissi.png" />
+                
             </div>
     
             <h2 className="mt-4 font-bold text-xl text-center">Abderrahim SOUBAI-ELIDRISI</h2>
@@ -111,7 +113,11 @@ export default function Home() {
 <div className=" flex flex-col items-start mt-8 sm:mt-0 text-center">
 
 
-    <img className="mx-auto mb-8" src="assets/diag.png" alt="My image" />
+            <div className="mx-auto mb-8">
+                                <Image width={700} height={400 }   src="/assets/diag.png" />
+
+            </div>
+            
 
     <p>
         Based on image-based functionalities of the OAK-D along with standard Deep Learning techniques such as object detection, semantic segmentation, etc. We will perform food quality classification (i.e. classifying vegetables based on their quality state). Keeping track of <strong>supermarkets (or stores)</strong>  stocked food’s state can help reduce the amount of wasted food and keep the freshness of the existing goods.
@@ -146,8 +152,14 @@ export default function Home() {
                   Powered by <strong> OAK-D </strong>
                 </h4>
 
-                <div id="cf">
-          <img className="mx-auto mb-20 h-100"   src="assets/oakd.png" alt="My image" />
+                <div className="mx-auto mb-20 h-100" id="cf">
+                  
+
+                             <Image  width={250}
+                                    height={250}
+                    src="/assets/oakd.png" alt="My image" />
+
+                  
         </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2">
                  OAK—D is a spatial AI powerhouse, capable of simultaneously running advanced neural networks while providing depth from two stereo cameras and color information from a single 4K camera in the center.
@@ -158,7 +170,13 @@ export default function Home() {
                   Designed for <strong>Africa</strong>
                 </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-          <img className="mx-auto mb-8"  src="assets/africa.jpg" alt="My image" />
+                  
+                  <div className="mx-auto mb-8">
+                  <Image  width={300}
+        height={300}  src="/assets/africa.jpg" alt="My image" />
+
+                  </div>
+
 Tria systems aim to solve a critical food problem especially in African countries by optimizing the storage and manipulation of food in supermarkets and big facilities such as hotels and schools...
                 </p>
               </div>

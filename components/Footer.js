@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer() {
 
     return <div className="w-full min-h-screen flex items-center justify-center bg-black">
@@ -7,7 +9,7 @@ export default function Footer() {
                     in touch</h1>
             </div>
             <div className="flex mt-8 flex-col md:flex-row md:justify-between">
-                <p className="w-full md:w-2/3 text-gray-400"> Let's build a beautiful place to live together </p>
+                <p className="w-full md:w-2/3 text-gray-400"> Let s build a beautiful place to live together </p>
                 <div className="w-44 pt-6 md:pt-0">
                     <a className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
                 </div>
@@ -15,7 +17,8 @@ export default function Footer() {
             <div className="flex flex-col">
                 <div className="flex mt-24 mb-12 flex-row justify-between">
                     <div className="">
-                        <img className="w-20" src="/assets/logo-footer.png" />   
+                                <Image width={80} height={80 }   src="/assets/logo-footer.png" />
+                        v
                     </div>
   
                     <div className="flex flex-row space-x-8 items-center justify-between">
