@@ -18,7 +18,6 @@ export default function Footer() {
                 <div className="flex mt-24 mb-12 flex-row justify-between">
                     <div className="">
                                 <Image width={80} height={80 }   src="/assets/logo-footer.png" />
-                        v
                     </div>
   
                     <div className="flex flex-row space-x-8 items-center justify-between">
