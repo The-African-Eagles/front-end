@@ -18,8 +18,10 @@ export default function Home() {
         <section className="container mx-auto px-6 sm:px-12 flex flex-col-reverse  sm:flex-row items-center">
 
 <div className="sm:w-2/5 flex flex-col items-start mt-8 sm:mt-0 ">
-    <h1 className="text-4xl lg:text-6xl leading-none mb-4"><strong className="font-black">Food health</strong> </h1>
-    <p className="lg:text-lg mb-4 sm:mb-12">Bakced by OAK-D</p>
+            <h1 className="text-4xl lg:text-6xl leading-none mb-4"><strong className="font-black">
+            TR <span className="text-blue-300" > IA</span>
+            </strong> </h1>
+    <p className="lg:text-lg mb-4 sm:mb-12">Food quality monitoring system Backed by OAK-D</p>
     <a href="#product" className="font-semibold text-lg bg-blue-400 hover:bg-blue-700 text-white py-3 px-10 rounded-full">Learn more</a>
 </div>
 <div className="sm:w-3/5">
@@ -48,7 +50,7 @@ export default function Home() {
             </div>
     
             <h2 className="mt-4 font-bold text-xl text-center">Sara EL-ATEIF</h2>
-            <h6 className="mt-2 text-sm font-medium">Machine Learning engineer</h6>
+            <h6 className="mt-2 text-sm font-medium">Machine Learning Engineer</h6>
     
          
     
@@ -108,7 +110,7 @@ export default function Home() {
     </h1>
         </section>
 
-        <section id="info" className="flex my-24">
+        <section id="product" className="flex my-24">
 
 <div className=" flex flex-col items-start mt-8 sm:mt-0 text-center">
 
@@ -140,7 +142,7 @@ export default function Home() {
 </section>
 
 
-<section id="info " className="flex my-24">
+<section id="info" className="flex my-24">
 
 <div className=" flex flex-col items-start mt-8 sm:mt-0 text-center">
 
@@ -189,7 +191,9 @@ Tria systems aim to solve a critical food problem especially in African countrie
     </section>
       </main>
 
+      <div id="contact">
       <Footer />
+      </div>
       
     </div>
   )
