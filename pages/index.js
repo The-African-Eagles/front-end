@@ -142,7 +142,18 @@ export default function Home() {
 </section>
 
 
+<section  className="flex my-24">
+
+          <div  className="mx-auto">
+
+            <embed width="550" height="300"  src="https://www.youtube.com/embed/J6n1huFf6rU" frameBorder="0" ></embed>
+
+          </div>
+          </section>
+
 <section id="info" className="flex my-24">
+
+     
 
 <div className=" flex flex-col items-start mt-8 sm:mt-0 text-center">
 
